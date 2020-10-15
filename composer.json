@@ -1,5 +1,5 @@
 {
-    "name": "silverstripe/fulltextsearch",
+    "name": "toastnz/fulltextsearch",
     "description": "Adds support for Fulltext Search engines like Sphinx and Solr to SilverStripe CMS",
     "type": "silverstripe-vendormodule",
     "license": "BSD-3-Clause",
@@ -25,7 +25,7 @@
         "silverstripe/framework": "^4.0",
         "monolog/monolog": "~1.15",
         "ptcinc/solr-php-client": "^1.0",
-        "symfony/process": "^3.2",
+        "symfony/process": "^5.1",
         "tractorcow/silverstripe-proxy-db" : "~0.1"
     },
     "require-dev": {
