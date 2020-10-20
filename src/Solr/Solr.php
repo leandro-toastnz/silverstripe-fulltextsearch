@@ -91,7 +91,7 @@ class Solr
         $version = isset(self::$solr_options['version']) ? self::$solr_options['version'] : $defaults['version'];
 
         /** @var Module $module */
-        $module = ModuleLoader::getModule('silverstripe/fulltextsearch');
+        $module = ModuleLoader::getModule('toastnz/fulltextsearch');
         $modulePath = $module->getPath();
 
         if (version_compare($version, '4', '>=')) {
